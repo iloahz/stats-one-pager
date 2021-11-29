@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle src/index.jsx --outdir=dist/js --sourcemap --target=chrome96",
+    "serve": "esbuild --bundle src/index.jsx --outdir=dist/js --sourcemap --target=chrome96 --servedir=dist"
   },
   "repository": {
     "type": "git",
