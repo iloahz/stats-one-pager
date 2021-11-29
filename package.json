@@ -1,0 +1,26 @@
+{
+  "name": "stats-one-pager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iloahz/stats-one-pager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iloahz/stats-one-pager/issues"
+  },
+  "homepage": "https://github.com/iloahz/stats-one-pager#readme",
+  "dependencies": {
+    "@mui/material": "^5.2.1",
+    "chart.js": "^3.6.0",
+    "esbuild": "^0.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
