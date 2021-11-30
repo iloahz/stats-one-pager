@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+div {
+    overflow: hidden;
+}
+
+#index {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}

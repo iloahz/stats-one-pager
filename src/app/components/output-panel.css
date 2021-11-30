@@ -1,0 +1,16 @@
+.chart-lane {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.chart-lane-histogram {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.chart-lane-line {
+    width: 50%;
+    height: 100%;
+}
